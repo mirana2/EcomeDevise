@@ -1,8 +1,20 @@
+<div id="general">
+    <div id="contain">
 
+        <div id="pictus">
+            <%= image_tag(@cat.image_url) %>
+        </div>
 
+        <div id="bak">
+            <div id="texto">
+                <h2><%= @cat.title %></h2> <br>
+                <p>Description:</p>
+                <h5><%= @cat.description %></h5><br>
+                <p>Prix:</p>
+                <h5><%= @cat.price %> Ar</h5>
+            </div>
+        </div>
 
-<%= @cat.title %>
-<div>
-<img src="<%= @cat.image_url %>" alt="">
+    </div>
+
 </div>
-<%= @cat.description %>

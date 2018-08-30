@@ -9,3 +9,67 @@
     top: 55px;
 }
 
+#concon {
+    width: 100%;
+}
+#square {
+    display: inline-flex;
+    background: #888;
+    width: 270px;
+    margin: 13px;
+}
+
+#inline .h-size2{
+    display: inline;
+}
+
+
+//××××××××××××××××××××××××××;
+
+
+
+
+#general{
+
+}
+
+#contain{
+    height: 1150px;
+    padding: 100px;
+    background-color: #111;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#pictus{
+    position: absolute;
+    display: block;
+}
+
+#bak{
+        width: 1148px;
+        height: 960px;
+        background: #362f2f;
+}
+#texto{
+    color: aliceblue;
+    position: absolute;
+    z-index: 80;
+    background-color: transparent;
+    left: 820px;
+    top: 275px;
+    padding: 50px 0px 0px 30px;
+}
+
+#hope{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    color: white;
+}
+
+
+#hope a:hover{
+    color: white;
+}
+
